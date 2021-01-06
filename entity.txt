@@ -1,0 +1,7 @@
+entity  实体类
+dao     数据库操作
+biz		业务
+controller控制器
+global  全局处理 
+
+JDK动态代理，就是Proxy对象重新实现了原对象所实现的接口，这样就可以对接口中定义的方法进行增强
