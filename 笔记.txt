@@ -5,3 +5,15 @@ git restore 撤销add操作
 git remove 命令行删除文件
 
 git mv 改动前名字  改动后名字  ：进行重命名文件名
+
+查看改动内容：
+1. git log --pretty=online 笔记.txt
+57121502c355a49954c942db09cdc5061ca8aed0 (HEAD -> master) 12
+381394c9f10423f3a2768aa477b8d7d2a201e82b 添加
+b632592f5deb024cc0853578e70ca11e995478f0 命令行删除文件
+e06616ec69c6a5cb05e9e86eb3b4fe383793bf09 test4
+6cdcacc9d9cdd15be93587bc3b3269cacc73a963 test delete manually
+cd2aa2a1405b01cc7a49140d82084f477975dcbf 测试提交
+11d0e447fac4fdb7d5882347f5eac62022748e07 test2
+
+2.git show e06616ec69c6a5cb05e9e86eb3b4fe383793bf09    git show +commit的ID来查看改动内容
