@@ -3,3 +3,5 @@ git分为三个区：本地区、暂存区、远程仓库
 git restore 撤销add操作
 
 git remove 命令行删除文件
+
+git mv 改动前名字  改动后名字  ：进行重命名文件名
