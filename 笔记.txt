@@ -20,4 +20,4 @@ cd2aa2a1405b01cc7a49140d82084f477975dcbf 测试提交
 
 2.git show e06616ec69c6a5cb05e9e86eb3b4fe383793bf09    git show +commit的ID来查看改动内容
 
-
+git reset HEAD 笔记.txt   从暂存区中撤销 
