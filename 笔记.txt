@@ -46,3 +46,5 @@ git branch -d 删除分支   如果在分支上已经提交了东西就不能d�
 合并分支：
 1.git checkout master切换的master（想合并其他分支的分支）
 2.git merge 20210107合并分支   git merge 要合并的分支名
+
+分支冲突master测试：
