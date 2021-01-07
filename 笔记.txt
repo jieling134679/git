@@ -37,8 +37,11 @@ git push -u origin master
 
 git tag  TAG名 增加tag    git tag TAG名  commitid给以前的commit增加tag   git tag -d TAG名删除TAG
 
-分支：
+创建删除分支：
 git branch 20210107   创建了一个叫20210107的分支
 这时候再输入git branch可以查看分支，此时前面有*的代表是默认分支    
 git checkout 切换分支
 git branch -d 删除分支   如果在分支上已经提交了东西就不能d删除，可以git branch -D 分支名  强制删除
+
+合并分支：
+git merge
