@@ -34,3 +34,5 @@ git remote add origin git@github.com:jieling134679/git.git
 
 推送代码到远程分支
 git push -u origin master
+
+git tag  TAG名 增加tag    git tag TAG名  commitid给以前的commit增加tag   git tag -d TAG名删除TAG    
