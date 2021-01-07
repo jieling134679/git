@@ -28,3 +28,6 @@ git reset HEAD 笔记.txt   从暂存区中撤销
 
 回退某个文件：
 git checkout 14a0403b1b2f6798f825043e2755ee44a79b6636 -- 笔记.txt 
+
+推送代码到远程分支
+git push -u origin master
