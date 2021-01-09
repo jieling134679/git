@@ -61,3 +61,5 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 解决方法1：
 git merge --abort   忽略其他分支的代码强行，保留原来分支的代码
+解决方法2：
+master分支测试
