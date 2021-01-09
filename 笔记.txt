@@ -63,4 +63,6 @@ Automatic merge failed; fix conflicts and then commit the result.
 git merge --abort   忽略其他分支的代码强行，保留原来分支的代码
 解决方法2：
 (a)发生问题后，手动修改代码
-(b)输入git commit 
+(b)输入git add. 
+(c)git commit 
+(d)在对话框中输入注释，:wq保存退出
