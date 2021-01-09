@@ -66,3 +66,6 @@ git merge --abort   忽略其他分支的代码强行，保留原来分支的代
 (b)输入git add. 
 (c)git commit 
 (d)在对话框中输入注释，:wq保存退出
+
+查看版本路线：
+git log --oneline --graph  可以查看版本合并记录
