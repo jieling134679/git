@@ -49,6 +49,10 @@ git branch -d 删除分支   如果在分支上已经提交了东西就不能d�
 
 分支冲突合并：
 不同分支修改同一文件相同地方产生冲突的例子：
+冲突报错内容：
+Auto-merging 笔记.txt
+CONFLICT (content): Merge conflict in 笔记.txt
+Automatic merge failed; fix conflicts and then commit the result.
 <<<<<<< HEAD
 分支冲突master测试：
 =======
